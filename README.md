@@ -10,7 +10,7 @@ Vulpecula 面向个人创作者、独立开发者和需要反复制作视觉素�
 
 > Bring your own keys. Create in your own workspace.
 
-![Vulpecula 首页](docs/images/homepage.png)
+![Vulpecula 首页](docs/images/homepage.jpg)
 
 ## 能做什么
 
