@@ -1,0 +1,27 @@
+# Copy this file to .dev.vars and fill in the keys you use. Never commit .dev.vars.
+# Every model works independently — configure only what you need.
+# Get keys:
+#   GEMINI_API_KEY   https://aistudio.google.com/apikey
+#   FLUX_API_KEY     https://api.bfl.ai  (Black Forest Labs)
+#   ARK_API_KEY      https://console.volcengine.com/ark  (ByteDance Seedream, activate the doubao-seedream model)
+#   MINIMAX_API_KEY  https://platform.minimaxi.com  (CN platform, default endpoint)
+# International MiniMax keys (platform.minimax.io) also need:
+#   MINIMAX_BASE_URL=https://api.minimax.io
+
+GEMINI_API_KEY=
+FLUX_API_KEY=
+ARK_API_KEY=
+MINIMAX_API_KEY=
+
+# Optional: route provider calls through scripts/dev-forwarder.mjs (local proxy
+# tunnel for networks where direct access is blocked, e.g. Google from CN).
+# Start it with: npm run forwarder
+# Leave this unset for direct access; only enable it when your local forwarder runs.
+# DEV_FORWARDER_URL=http://127.0.0.1:8787
+
+# Optional provider overrides. Keep the base URL without /api/v3 or /v1.
+# GEMINI_MODEL=gemini-2.5-flash-image
+# FLUX_MODEL=flux-2-pro
+# ARK_BASE_URL=https://ark.cn-beijing.volces.com
+# ARK_MODEL=doubao-seedream-4-0-250828
+# MINIMAX_BASE_URL=https://api.minimaxi.com

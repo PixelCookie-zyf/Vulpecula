@@ -1,0 +1,17 @@
+.DS_Store
+**/.DS_Store
+node_modules/
+dist/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+.env.*
+!.env.example
+.wrangler/
+.claude/
+.vinext/
+.next/
+*.tsbuildinfo
+cleanup-backup-*.tar.gz
+coverage/
